@@ -70,8 +70,8 @@ const Home = ({ content, stay, logo }) => {
         
       <span className={stay ? 'hidden' : `fixed top-3 left-3 text-2xl font-f1 text-text2`}>Claude</span>
       <span className='fixed flex flex-col justify-center items-center bottom-4 left-2 '>
-      <span className='w-[25px] h-[25px] flex items-center bg-white text-black font-bold border pl-[5px] rounded-[50%] text-xs mb-3 '>
-    <span>{logo}</span>
+      <span className='w-[25px] h-[25px] flex items-center justify-center bg-white text-black font-bold border rounded-[50%] text-xs mb-3 '>
+    <span className=''>{logo}</span>
   </span>
         <svg className=' ' xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,56H80V200H40ZM216,200H96V56H216V200Z"></path></svg>
       </span>

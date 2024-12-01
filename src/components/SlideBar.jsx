@@ -60,7 +60,7 @@ const SlideBar = ({ stay, setStay, content , email, logo, key }) => {
           Free plan
         </div>
         <div className='flex p-3 items-baseline gap-2 border w-[88%] rounded-lg justify-center ml-[19px] text-xs scale-110 bg-bg2 cursor-pointer'>
-        <span className='w-[25px] h-[25px] flex items-center bg-white text-black font-bold border pl-[5px] rounded-[50%] text-xs '>
+        <span className='w-[25px] h-[25px] flex items-center justify-center bg-white text-black font-bold border  rounded-[50%] text-xs '>
     <span>{logo}</span>
   </span>
           <span>

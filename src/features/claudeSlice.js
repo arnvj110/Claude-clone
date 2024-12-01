@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  names: localStorage.getItem("names") ? JSON.parse(localStorage.getItem("names")) : [],
+  names: localStorage.getItem("names") ? JSON.parse(localStorage.getItem("names")) : [{"fullname":"Arnav Jain","nickname":"Arnav"}],
   chatText: localStorage.getItem("chatText") ? JSON.parse(localStorage.getItem("chatText")) : []
 }
 

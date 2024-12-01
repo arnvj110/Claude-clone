@@ -46,7 +46,7 @@ const MainChat = ({ logo, stay }) => {
 
 
           <span className='fixed flex flex-col justify-center items-center bottom-4 left-2 '>
-            <span className='w-[25px] h-[25px] flex items-center bg-white text-black font-bold border pl-[5px] rounded-[50%] text-xs mb-3 '>
+            <span className='w-[25px] h-[25px] flex items-center bg-white text-black font-bold border justify-center rounded-[50%] text-xs mb-3 '>
               <span>{logo}</span>
             </span>
             <svg className=' ' xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM40,56H80V200H40ZM216,200H96V56H216V200Z"></path></svg>
@@ -74,7 +74,7 @@ const MainChat = ({ logo, stay }) => {
 
         <div className=' mt-[70px] w-[50%] mb-[150px] p-2 transition-all duration-300 ease-in-out'>
           <div className='group relative flex gap-3 p-4 border  border-blue-500 bg-bg3 rounded-xl w-fit pr-5 mb-5'>
-            <span className='w-[25px] h-[25px] flex items-center bg-white text-black font-bold border pl-[5px] rounded-[50%] text-xs '>
+          <span className='w-[25px] h-[25px] flex items-center bg-white text-black font-bold border justify-center rounded-[50%] text-xs '>
               <span>{logo}</span>
             </span>
             <span>
@@ -118,7 +118,7 @@ const MainChat = ({ logo, stay }) => {
             </div>
           </div>
           <div className="group mt-5 relative flex gap-3 p-4 border  border-blue-500 bg-bg3 rounded-xl w-fit pr-5 mb-5">
-            <span className="w-[25px] h-[25px] flex items-center bg-white text-black font-bold border pl-[5px] rounded-[50%] text-xs ">
+          <span className='w-[25px] h-[25px] flex items-center bg-white text-black font-bold border justify-center rounded-[50%] text-xs'>
               <span>{logo}</span>
             </span>
             <span>
