@@ -116,7 +116,7 @@ const Home = ({ content, stay, logo }) => {
 
           </div>
           {textOption &&
-            <div className='transition-all duration-500 ease-in-out opacity-100 scale-100 flex gap-2 bg-bg4 p-3 absolute left-[-45px] top-[137px]  w-[465px] shadow-2xl rounded-xl'>
+            <div className='border transition-all duration-500 ease-in-out opacity-100 scale-100 flex gap-2 bg-bg4 p-3 absolute left-[-45px] top-[137px]  w-[465px] shadow-2xl rounded-xl'>
               <div className='flex flex-col max-w-[50%]'>
                 <p className='text-[13.5px]'>How should Claude write responses?</p>
 
@@ -220,6 +220,7 @@ const Home = ({ content, stay, logo }) => {
           </span>
         </div>
         <div className={`flex flex-wrap gap-3 mt-3 w-[90%] wrap transition-all duration-1000 delay-1000 ease-in-out mb-[70px] justify-center`}>
+          
           {content.map((s, i) => {
 
             return <History key={i} contentShow={contentShow} contents={s} ago={ago[i]} />
